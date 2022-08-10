@@ -1,0 +1,134 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	header{
+		padding: 10px 0;
+	}
+	.menu ul li a{
+		padding: 10px 0 0 !important;
+		font-size: 16px;
+		text-align: right;
+	}
+	/*header end*/
+	/*slider start*/
+.slider{
+	padding-bottom: 60px;
+}
+.c_ind{
+	bottom: -60px;
+}
+.c_ind [data-bs-target]{
+	width: 13px;
+	height: 13px;
+}
+.slider_text{
+	margin-top: 0;
+
+}
+.slider_text h1{
+	font-size: 25px;
+}
+.slider_text h2{
+	margin: 10px 0;
+	font-size: 18px;
+	
+}
+.slider_text p{
+	margin-bottom: 20px;
+}
+.s_icon ul li{
+	margin-right: 20px!important;
+}
+.s_icon ul li i{
+	font-size: 35px;
+	
+}
+.feature{
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.c_h1{
+	margin-bottom: 10px;
+	font-size: 25px;
+	
+}
+.c_p{
+	line-height: 25px;
+	font-size: 17px;
+	
+}
+
+/*icon start*/
+
+.icon_p1{
+	text-align: center;
+
+}
+.icon_p2{
+	text-align: center;
+
+}
+.icon3{
+	padding-top: 1rem!important;
+	padding-bottom: 1rem!important;
+}
+.c_h11{
+	margin-bottom: 10px;
+	font-size: 25px;
+	
+}
+.c_p1{
+	line-height: 25px;
+	font-size: 17px;
+	
+}
+.ft{
+	padding-left: 20px!important;
+}
+
+.ft1{
+	display: none;
+}
+.ft2{
+	display: none;
+}
+.footp{
+	text-align: center;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+    .menu ul li a{
+    	padding: 10px 0 0 !important;
+    	font-size: 18px;
+    	text-align: right;
+    }
+/*header end*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.menu ul li a{
+		padding: 10px 0 0 !important;
+		font-size: 20px;
+		text-align: right;
+	}
+
+	/*header end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { ... }
+
+/*Extra Extra large devices (Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
